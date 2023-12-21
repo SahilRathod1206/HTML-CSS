@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    color: deeppink;
+}
+
+form{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 420px;
+}
+
+table{
+    width: 500px;
+    background-color: rgba(131, 0, 253, 0.3);
+}
+
+th{
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+td{
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.button{
+    padding-left: 620px;
+}
+
+#btn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #000;
+    color: white;
+    background-color: gray;
+}

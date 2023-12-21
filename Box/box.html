@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land of Boxes</title>
+    <link rel="stylesheet" href="box.css">
+</head>
+<body>
+    <h1>Land Of Boxes</h1>
+    <form method="post">
+        <table>
+            <tr>
+                <th colspan="2">Contact Details</th>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" name="address" required></td>
+            </tr>
+            <tr>
+                <td>Number:</td>
+                <td><input type="number" name="number" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Product Details</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>The EconoBox (R5)</td>
+                <td><input type="number" name="quantity"></td>
+            </tr>
+            <tr>
+                <td>The Standard Box (R10)</td>
+                <td><input type="number" name="quantity"></td>
+            </tr>
+            <tr>
+                <td>The Premium Box (R15)</td>
+                <td><input type="number" name="quantity"></td>
+            </tr>
+            <tr>
+                <td>The Deluxe Box (R20)</td>
+                <td><input type="number" name="quantity"></td>
+            </tr>
+            <tr>
+                <td>The Super Deluxe Box (R30)</td>
+                <td><input type="number" name="quantity"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="2">Method Of Payment</th>
+            </tr>
+            <tr>
+                <td>Credit Card Type:</td>
+                <td><input type="text" name="cardType"></td>
+            </tr>
+            <tr>
+                <td>Card Number:</td>
+                <td><input type="number" name="cardNumber"></td>
+            </tr>
+            <tr>
+                <td>Expiry Date:</td>
+                <td><input type="date" name="expiryDate"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Billing Address</th>
+            </tr>
+            <tr>
+                <td>Address: <input type="text" name="billingAddress"></td>
+            </tr>
+            <tr>
+                <th>Delivery Address</th>
+            </tr>
+            <tr>
+                <td>Your Address: <input type="text" name="deliveryAddress" required></td>
+            </tr>
+        </table>
+    </form>
+    <div class="button">
+        <input type="submit" id="btn" value="Submit">
+    </div>
+</body>
+</html>
