@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    margin: 10px;
+}
+img{
+    width: 98%;
+    height: 500px;
+    padding: 10px;
+}
+
+.about{
+    display: block;
+    width: 95%;
+    background-color: #b92bc6b2;
+    padding: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.info{
+    display: block;
+    width: 900px;
+    margin: 10px;
+    background-color: rgb(92, 154, 29);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.contact{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+table,th,td{
+    border:1px solid;
+    width: 35%;
+    padding: 5px;
+    background-color: palevioletred;
+}
